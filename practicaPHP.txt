@@ -1,0 +1,41 @@
+TAREA DE PHP para mi:
+
+·Ejercicio 1:
+    En el siguiente código identificar:
+    • las variables y su tipo
+    • los operadores
+    • las funciones y sus parámetros
+    • las estructuras de control
+    • cuál es la salida por pantalla
+
+    variables: a (boolean), b (string), c (string), d (integer), f (integer), g (integer), I (integer) (solo existe dentro de la función)
+    operadores: *, =, +=, ?:, $d++,++$d
+    funciones: doble (%i), gettype ($cualquiervar), is_int($cualquiervar), is_string($cualquiervar) 
+    estructuras de control: If
+    salida de pantalla:
+    boolean
+    string
+    string
+    integer
+    1, xyz, xyz, 18, 44, 44
+    (lo muestra todo seguido porque no hay salto de linea, pero para que quede claro está escrito así, además $a es true y se imprime como 1)
+
+·Ejercicio 2:
+    Indicar si los siguientes códigos son equivalentes:
+    a) 
+    Son los 3 iguales, dan la misma salida de pantalla que son los numero del 1 al 10.
+
+    b)
+    Son 4 formas alternativas de mostrar en pantalla a través de un "for" los números del 1 al 10.
+
+    c)
+    Son 2 formas alternativas de evaluar si la variable i es igual a 0,1 o 2.
+
+
+·ejercicio 3:
+    Explicar para qué se utiliza el siguiente código:
+    a)
+    
+
+
+
