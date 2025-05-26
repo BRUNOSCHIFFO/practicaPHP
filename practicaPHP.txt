@@ -1,4 +1,4 @@
-TAREA DE PHP para mi:
+PRÁCTICA N°4:
 
 ·Ejercicio 1:
     En el siguiente código identificar:
@@ -34,8 +34,30 @@ TAREA DE PHP para mi:
 
 ·ejercicio 3:
     Explicar para qué se utiliza el siguiente código:
-    a)
+    a) El código proporcionado es un ejemplo de cómo generar una tabla HTML utilizando PHP de forma dinámica. Cuando se ejecuta, se crea una página web con una tabla que tiene un ancho del 90% de la ventana del navegador y un borde de 1 píxel. La tabla contiene 5 filas y 2 columnas. Para lograrlo, el script utiliza dos bucles anidados: el bucle externo recorre cada una de las cinco filas y el interno recorre las dos columnas que hay en cada fila. Dentro de cada celda de la tabla se inserta la entidad HTML &nbsp;, que representa un espacio en blanco, que asegura que las celdas no estén completamente vacías y que el navegador las represente visualmente con el borde correspondiente.
     
+    b) Su propósito es recibir una edad introducida por el usuario a través de un formulario y luego determinar si esa persona es mayor o menor de edad según si tiene al menos 21 años.
+    Cuando se accede a la página por primera vez, no se ha enviado ningún dato, por lo tanto el código detecta que la variable del botón de envío no está definida. Al comprobar eso, muestra un formulario sencillo con un campo para escribir la edad y un botón que dice "Ir". Este formulario se enviará nuevamente a la misma página cuando el usuario haga clic en el botón.
+    Una vez que el usuario introduce una edad y presiona el botón de enviar, el formulario se procesa. El navegador envía los datos mediante el método POST. En ese momento, la variable asociada al botón ya está definida, por lo que el código entra en la otra parte del condicional. Toma el valor ingresado en el campo de edad y lo guarda en una variable. Luego compara ese valor para saber si es igual o mayor a 21. Si lo es, muestra el mensaje “Mayor de edad”; si no, muestra “Menor de edad”.
+
+
+·ejercicio 4:
+    Antes del include, las variables no existen, así que PHP imprime la cadena con variables vacías. Luego, al incluir datos.php, las variables son definidas y se pueden usar con sus valores reales. Por pantalla tira un WARNING por las variables no definidas y luego sigue con el programa mostrando EL  EL CLAVEL BLANCO
 
 
 
+·ejercicio 1 arrays: 
+    Ambos códigos son equivalentes porque generan un mismo array con las mismas claves y valores. La diferencia está solo en la forma de definir el array: uno usa la sintaxis directa para crear todo el array de una vez, y el otro construye el array paso a paso asignando cada par clave-valor. En ambos casos, el acceso a los elementos por clave es idéntico.
+
+
+·ejercicio 2 arrays:
+    El primer codigo muestra por pantalla bar1, donde 1 se refiere al true.
+    El segundo codigo muestra 5942, que son los 3 valores de "6,9 y a".
+    El código crea un array con claves 5 y 12, agrega el valor 56 con clave automática (13), añade el valor 42 con clave "x", luego elimina el elemento con clave 5 y finalmente borra todo el array. No produce salida.
+
+
+·ejercicio 3 arrays:
+    a) Has entrado en esta pagina a las [hora] horas, con [minutos] minutos y [segundos] segundos, del [día]/[mes]/[año], aunque el servidor se ejecuta en otra zona y por eso no coinciden con la hora de Rosario.
+    b) Va a mostrar 5+6=11
+
+    
